@@ -152,7 +152,7 @@ extraVolumeMounts: []
 extraCommandlineArgs: []
 # example:
 # extraCommandlineArgs:
-#   - -client.external-labels=hostname=$(HOSTNAME)
+  - -client.external-labels=http://52.228.23.13:300/loki/api/v1/push
 
 config:
   client:
